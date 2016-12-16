@@ -14,11 +14,6 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjrt</artifactId>
-			<version>1.8.7</version>
-		</dependency>
-		<dependency>
 			<groupId>de.saxsys.swing2javafx</groupId>
 			<artifactId>aspects</artifactId>
 			<version>0.1-SNAPSHOT</version>
@@ -38,26 +33,9 @@
 					</aspectLibraries>
 				</configuration>
 			</plugin>
-			<!--  <plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.2.1</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>java</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<mainClass>com.stackoverflow.FXContainsSwing_Invalid</mainClass>
-				</configuration>
-			</plugin>
-			-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.5.1</version>
 				<configuration>
 					<source>${maven.compiler.source}</source>
 					<target>${maven.compiler.target}</target>
